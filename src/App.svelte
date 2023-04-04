@@ -14,37 +14,37 @@
   <div class="title">2023年度物理学院 自强大学生标兵 答辩唱票</div>
   <div class="row">
     <div class="element">
-      <button class="button" on:click={()=>{A+=1}}>{A}</button>
+      <button class="button" on:click={()=>{A+=1}} on:contextmenu={(e)=>{e.preventDefault();A-=1}}>{A}</button>
       <div class="child">李弘禹</div>
     </div>
     <div class="element">
-      <button class="button" on:click={()=>{B+=1}}>{B}</button>
+      <button class="button" on:click={()=>{B+=1}} on:contextmenu={(e)=>{e.preventDefault();B-=1}}>{B}</button>
       <div class="child">葛景业</div>
     </div>
     <div class="element">
-      <button class="button" on:click={()=>{C+=1}}>{C}</button>
+      <button class="button" on:click={()=>{C+=1}} on:contextmenu={(e)=>{e.preventDefault();C-=1}}>{C}</button>
       <div class="child">谯宇箫</div>
     </div>
     <div class="element">
-      <button class="button" on:click={()=>{D+=1}}>{D}</button>
+      <button class="button" on:click={()=>{D+=1}} on:contextmenu={(e)=>{e.preventDefault();D-=1}}>{D}</button>
       <div class="child">邱卓伦</div>
     </div>
   </div>
   <div class="row">
     <div class="element">
-      <button class="button" on:click={()=>{E+=1}}>{E}</button>
+      <button class="button" on:click={()=>{E+=1}} on:contextmenu={(e)=>{e.preventDefault();E-=1}}>{E}</button>
       <div class="child">刘嘉新</div>
     </div>
     <div class="element">
-      <button class="button" on:click={()=>{F+=1}}>{F}</button>
+      <button class="button" on:click={()=>{F+=1}} on:contextmenu={(e)=>{e.preventDefault();F-=1}}>{F}</button>
       <div class="child">肖守宇</div>
     </div>
     <div class="element">
-      <button class="button" on:click={()=>{G+=1}}>{G}</button>
+      <button class="button" on:click={()=>{G+=1}} on:contextmenu={(e)=>{e.preventDefault();G-=1}}>{G}</button>
       <div class="child">马喆</div>
     </div>
     <div class="element">
-      <button class="button" on:click={()=>{H+=1}}>{H}</button>
+      <button class="button" on:click={()=>{H+=1}} on:contextmenu={(e)=>{e.preventDefault();H-=1}}>{H}</button>
       <div class="child">杨炅然</div>
     </div>
   </div>
@@ -73,7 +73,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 50px;
+    font-size: 3.2vw;
     font-weight: bold;
   }
   .title{
@@ -82,7 +82,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 60px;
+    font-size: 4.2vw;
     font-weight: bold;
   }
   .row{
@@ -95,7 +95,7 @@
     position: relative;
     background-color: #0086fc;
     border: none;
-    font-size: 100px;
+    font-size: 6.5vw;
     font-weight: bolder;
     color: #FFFFFF;
     padding: 20px;
